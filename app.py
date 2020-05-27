@@ -6,7 +6,7 @@ import pandas as pd
 from peewee import *
 
 from settings import *
-from welcome import 
+from welcome import *
 
 
 class Product(Model):
