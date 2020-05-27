@@ -7,7 +7,7 @@ def loading():
     for char in chars:
         sys.stdout.write('\r'+'loading...'+char)
         time.sleep(.3)
-        sys.stdout.flush
+        sys.stdout.flush()
 
 #artwork from https://www.asciiart.eu/television/futurama
 def welcome():
