@@ -9,7 +9,7 @@ from settings import *
 from welcome import *
 
 
-class Product(Model)
+class Product(Model):
     """Base class"""
     product_id = AutoField()
     product_name = TextField(unique =True)
