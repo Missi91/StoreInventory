@@ -12,7 +12,7 @@ from welcome import *
 class Product(Model):
     """Base class"""
     product_id = AutoField()
-    product_name = TextField(unique =True
+    product_name = TextField(unique =True)
     product_price = IntegerField()
     product_quantity = IntegerField(default=0)
     date_updated = DateField(default =now)
