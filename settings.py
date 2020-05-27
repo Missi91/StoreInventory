@@ -10,7 +10,7 @@ DATABASE = 'inventory.db'
 db = SqliteDatabase(DATABASE)
 
 # source product file
-SOURCE = 'inventory.csv'
+SOURCE = 'inventory.csv
 
 
 def clear():
